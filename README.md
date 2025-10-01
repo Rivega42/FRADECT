@@ -8,6 +8,25 @@
 
 **English** | [Русский](README_RU.md)
 
+## 🌐 Language Versions / Языковые версии
+
+### 📚 Documentation / Документация
+- **English:**
+  - [Philosophy & Risk-First Thinking](docs/PHILOSOPHY.md)
+  - [Technical Architecture](docs/ARCHITECTURE.md)
+  - [Modules Deep Dive](docs/MODULES.md)
+
+- **Русский:**
+  - [Философия и приоритет рисков](docs/PHILOSOPHY_RU.md)
+  - [Техническая архитектура](docs/ARCHITECTURE_RU.md)
+  - [Подробный обзор модулей](docs/MODULES_RU.md)
+
+### 💻 Code / Код
+- **Source files with Russian comments:**
+  - [main_ru.py](src/main_ru.py) - Основной файл приложения
+  - [docker-compose-ru.yml](docker-compose-ru.yml) - Docker конфигурация
+  - [Dockerfile.ru](Dockerfile.ru) - Docker образ
+
 ## 🎯 Mission
 
 FRADECT transforms risk management from reactive "fighting fires" to proactive "predicting and preventing" losses. We built a unified platform that answers one question: **"What will we lose if we don't act now?"**
@@ -24,7 +43,7 @@ FRADECT applies this to:
 - Contractor evaluation
 - Customer risks
 
-**Read more:** [Philosophy Document](docs/PHILOSOPHY.md)
+**Read more:** [Philosophy Document](docs/PHILOSOPHY.md) | [На русском](docs/PHILOSOPHY_RU.md)
 
 ## 🏗️ Platform Architecture
 
@@ -66,7 +85,7 @@ FRADECT applies this to:
 - Decision in <300ms
 - Actions: approve/review/decline
 
-**Learn more:** [Modules Documentation](docs/MODULES.md)
+**Learn more:** [Modules Documentation](docs/MODULES.md) | [На русском](docs/MODULES_RU.md)
 
 ### 2️⃣ Financial Risk Module
 **Problem:** Companies turn into involuntary banks with huge accounts receivable
@@ -174,7 +193,7 @@ Option 2: SaaS
 └─ Search: Elasticsearch
 ```
 
-**Full tech details:** [Architecture Document](docs/ARCHITECTURE.md)
+**Full tech details:** [Architecture Document](docs/ARCHITECTURE.md) | [На русском](docs/ARCHITECTURE_RU.md)
 
 ## 📊 Key Metrics
 
@@ -225,12 +244,18 @@ curl http://localhost:8000/
 open http://localhost:8000/docs
 ```
 
-## 📚 Documentation
+## 📚 Full Documentation
 
+### English:
 - [📖 Philosophy & Risk-First Thinking](docs/PHILOSOPHY.md)
 - [🏗️ Technical Architecture](docs/ARCHITECTURE.md)
 - [📦 Modules Deep Dive](docs/MODULES.md)
-- [🇷🇺 Russian README](README_RU.md)
+
+### Русский:
+- [📖 Философия и приоритет рисков](docs/PHILOSOPHY_RU.md)
+- [🏗️ Техническая архитектура](docs/ARCHITECTURE_RU.md)
+- [📦 Подробный обзор модулей](docs/MODULES_RU.md)
+- [🇷🇺 README на русском](README_RU.md)
 
 ## 📞 Contact
 
