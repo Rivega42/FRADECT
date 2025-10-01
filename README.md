@@ -6,6 +6,8 @@
 ![License](https://img.shields.io/badge/license-proprietary-red)
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 
+**English** | [Русский](README_RU.md)
+
 ## 🎯 Mission
 
 FRADECT transforms risk management from reactive "fighting fires" to proactive "predicting and preventing" losses. We built a unified platform that answers one question: **"What will we lose if we don't act now?"**
@@ -21,6 +23,8 @@ FRADECT applies this to:
 - Project risks
 - Contractor evaluation
 - Customer risks
+
+**Read more:** [Philosophy Document](docs/PHILOSOPHY.md)
 
 ## 🏗️ Platform Architecture
 
@@ -61,6 +65,8 @@ FRADECT applies this to:
 - API layer between CMS (Insales, Tilda) and Payment Gateway (CloudPayments)
 - Decision in <300ms
 - Actions: approve/review/decline
+
+**Learn more:** [Modules Documentation](docs/MODULES.md)
 
 ### 2️⃣ Financial Risk Module
 **Problem:** Companies turn into involuntary banks with huge accounts receivable
@@ -168,6 +174,8 @@ Option 2: SaaS
 └─ Search: Elasticsearch
 ```
 
+**Full tech details:** [Architecture Document](docs/ARCHITECTURE.md)
+
 ## 📊 Key Metrics
 
 ### Product Metrics:
@@ -199,6 +207,30 @@ Option 2: SaaS
 6. Results presentation
 7. Commercial terms negotiation
 ```
+
+## 🚀 Quick Start
+
+```bash
+# Clone repository
+git clone https://github.com/Rivega42/FRADECT.git
+cd FRADECT
+
+# Run with Docker Compose
+docker-compose up -d
+
+# Access API
+curl http://localhost:8000/
+
+# Access docs
+open http://localhost:8000/docs
+```
+
+## 📚 Documentation
+
+- [📖 Philosophy & Risk-First Thinking](docs/PHILOSOPHY.md)
+- [🏗️ Technical Architecture](docs/ARCHITECTURE.md)
+- [📦 Modules Deep Dive](docs/MODULES.md)
+- [🇷🇺 Russian README](README_RU.md)
 
 ## 📞 Contact
 
